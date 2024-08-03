@@ -1,6 +1,11 @@
 
 body {
     display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px;
@@ -9,7 +14,7 @@ body {
 
 #tile-container {
     display: grid;
-    grid-template-columns: repeat(10, 100px); /* Adjust number of columns as needed */
+    grid-template-columns: repeat(10, 100px);
     gap: 10px;
 }
 
